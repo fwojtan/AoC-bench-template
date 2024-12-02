@@ -9,7 +9,8 @@ Adapted by Finlay Wojtan from a [previous template](https://github.com/CastleQui
 ### Get setup
 1. Set up your Rust environment
 2. Clone this template (`git clone https://github.com/fwojtan/AoC-bench-template.git`)
-3. Test you can run the code, using the Day 00 example.
+3. Run `uv run generate_input_files.py` or `python generate_input_files.py` to create the blank inputs.
+4. Test you can run the code, using the Day 00 example.
     - In the terminal, go to the directory you've cloned the repo into (the directory containing this README.md file)
     - Run `cargo run 0`
         - This should show some build output (the first time this is run), followed by 
@@ -32,7 +33,7 @@ Adapted by Finlay Wojtan from a [previous template](https://github.com/CastleQui
         > test day00::tests::check_day00_part2_case1 ... ok
         >
         > test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 75 filtered out; finished in 0.00s
-4. Optionally, in order to use the benchmarking functionality, please install `valgrind` e.g. `sudo apt install valgrind`.
+5. Optionally, in order to use the benchmarking functionality, please install `valgrind` e.g. `sudo apt install valgrind`.
 
 ### Solving puzzles
 Start implementing solutions!
